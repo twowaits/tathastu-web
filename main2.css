@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	margin:0;
+  transition: 0.3s;
+  padding: 0;
+}
+.container-fluid {
+	height:50px;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+a.btn-first {
+	background-color: beige;
+	color: black;
+}
+.brand {
+	margin-top: 0;
+}
+.logo {
+	padding: 2px 0;
+	height: 100px;
+	width:150px;
+}
+.navbar-style {
+	 margin-top: 10px 0;
+     box-shadow: 0 3px 15px black;
+     text-transform: uppercase;
+	 transition:0.3s;
+	 width:1345px;
+	 height: 40px;
+	 background-color:darkslategray;
+}
+.navbar-toggle {
+     color: darkorange;
+}
+.icon-bar {
+	background: darkorange;
+}
+.navbar-nav {
+	color: darkorange;
+}
+a.btn {
+
+  margin: 30px 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+a.btn-second {
+	border: 2px solid darkorange;
+	color: #fff;
+}
+
+a.btn-third {
+	background-color: darkorange;
+	border: 1px solid darkorange;
+	color: #fff;
+}
+
+a.btn:hover {
+   background: darkorange;
+   border: none;
+   color: white;
+   box-shadow: 5px 5px 10px #999;
+   transition: 0.3s;
+}
+.banner-image{
+	width:200px;
+	height:150px;
+}
+.img-responsive {
+	width:200px;
+	height:150px;
+}
+
+.card: {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  color: darkslateblue;
+  border : 2px solid darkorange;
+}
+.card:hover{
+background:white;
+color: black;
+box-shadow: 10px 10px 10px black;
+border : 2px solid darkorange;
+transition: 0.3s;
+}
+.card-body {
+	color: white;
+	margin:10px;
+}
+a.btn-fourth {
+	float:center;
+	border: 2px solid darkorange;
+	color: #fff;
+}
+a.btn-fifth {
+	border: 2px solid darkorange;
+	color: #fff;
+}
+a.btn-sixth {
+	background-color: darkorange;
+	border: 1px solid darkorange;
+	color: #fff;
+}
+
+.cont{
+font-size: 180%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+}
+ .styled {
+height:60px;
+width:270px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+text-align:left;
+    color: white;
+border-radius:10px;
+    text-shadow: 1px 1px 1px #000;
+  
+    background-color: #34495e;
+   /* background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);*/
+}
+
+.styled:hover {
+    background-color:#34495e ;
+border-width:5px;border-style:solid;border-color:orange;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.card:hover{
+background:white;
+color: black;
+box-shadow: 10px 10px 10px black;
+transition: 0.3s;
+background-color:#34495e ;
+border-width:5px;border-style:solid;border-color:orange;
+border-radius:20px;
+}
