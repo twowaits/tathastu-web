@@ -1,1 +1,468 @@
+    <!DOCTYPE html>
+    <html lang="en">
 
+    <head>
+        <meta charset="UTF-8">
+        <title>Tathastu-Web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS-LINK -->
+        <link rel="stylesheet" href="main.css">
+        <!-- BOOTSTRAP-LINK -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!-- BOOTSTRAP-SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script src="https://use.fontawesome.com/e505f97a56.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+
+
+    </head>
+
+    <body>
+        <section class="colored-section" id="title">
+            <div class="container-fluid">
+
+                <!-- NAV-BAR -->
+
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href=""></a>
+                    <img src="images/tathastu_logo.png" width="146px" class="d-inline-block align-top" alt=""
+                        loading="lazy">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navigationToggle">
+
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#course">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#events">Upcoming Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blogs">Blogs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#profile">Profile</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- TITLE -->
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="big-heading">The best Course in Your Hand</h1>
+                        <h3 class="p-title"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.ullam, impedit
+                        </h3>
+                        <button type="button" class="btn btn-light btn-lg download-button"><i class="fa fa-address-book"
+                                aria-hidden="true"></i>
+                            Contact Us</button>
+
+                        <button type="button" class="btn hover btn-outline-light  btn-lg download-button">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            Browser Course</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="title-image" src="images/title-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES -->
+        <section id="features">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" feature-box col-lg-4" data-target="120">
+                        <i class=" icon fa fa-check-circle fa-4x  "></i>
+
+                        <h3 class="feature-title"><span class="num">500</span><span>+</span></h3>
+                        <p>Students Empowerment</p>
+                    </div>
+
+                    <div class=" feature-box col-lg-4" data-target="120">
+                        <i class="icon fa fa-check-circle fa-4x"></i>
+                        <h3 class="feature-title"><span class="num">1000</span><span>+</span></h3>
+                        <p>Online Training</p>
+                    </div>
+
+                    <div class="feature-box col-lg-4 " data-target="120">
+                        <i class="icon fa fa-check-circle fa-4x"></i>
+                        <h3 class="feature-title"><span class="num">1500</span><span>+</span></h3>
+                        <p>Interviews</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses -->
+        <!-- Using Modal -->
+        <section class="colored-section" id="course">
+            <div class="container-fluid">
+                <div class="row">
+
+
+                    <!-- Machine-Learning Modal -->
+                    <div class="modal fade col-lg-12 col-md col-sm" id="ML">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Learn Machine Learning</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <img src="images/ML.png" alt="" srcset="" width="100%">
+                                    <p>Learn Python and 6 most important Machine Learning algorithms to build predictive
+                                        models <br>Take the final exam online to complete the Machine Learning Training
+                                        after which you will be able to download your certificate from Trainings
+                                    </p>
+                                    <p>Online Course: Available in English Language</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-target="#">Enroll</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web-Devlopment Modal -->
+                    <div class="modal fade col-lg-12 col-md col-sm" id="WD">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title he">Learn Web
+                                        Development</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <img src="images/WD.png" alt="" srcset="" width="100%">
+                                    <p>The focus of the course is web apps, it takes you from being a programmer to a
+                                        developer. The journey is about being able to think of an idea and converting it
+                                        into a web application. Every product-based companies like Facebook, Amazon,
+                                        Uber
+                                        etc seek professionals from this field</p>
+                                    <p>Online Course: Available in English Language</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-target="#">Enroll</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- UI/UX Modal -->
+
+                    <div class="modal fade col-lg-12 col-md col-sm" id="UIX">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Learn UI/UX
+                                        Design</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    <img src="images/UI.png" alt="" srcset="" width="100%">
+                                    <p>Master typography, colour, wireframing, and more to become a pro UI/UX designer.
+                                        Take the final exam online to complete the UI/UX Design Training after which you
+                                        will be able to download your certificate from Internshala Trainings
+
+                                    </p>
+                                    <p>Online Course: Available in English Language</p>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-dark" data-target="#">Enroll</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Machine-Learning-Card -->
+
+                    <div class="  card-1 col-lg-4 col-md-6">
+                        <img src="images/Machine.png" alt="Denim Jeans" style="width:100%">
+                        <h1>Machine Learning</h1>
+                        <h2><b>20% OFF YOUR PURCHASE</b></h2>
+                        <p>Learn Machine
+                            Learning</p>
+                        <p>Use Promo Code: <span class="promo">ML332</span></p>
+
+                        <p><button type="button" class="btn btn-light btn-lg btn-block" data-toggle="modal"
+                                data-target="#ML">View
+                            </button>
+                    </div>
+
+                    <!-- Web-Development-Card -->
+                    <div class=" card-2 col-lg-4 col-md-6">
+                        <img src="images/webdev.png" alt="Denim Jeans" style="width:100%">
+                        <h1>Web-Development</h1>
+                        <h2><b>30% OFF YOUR PURCHASE</b></h2>
+                        <p>Learn Web Devlopment</p>
+                        <p>Use Promo Code: <span class="promo">WD232</span></p>
+
+                        <p><button type="button" class="btn btn-outline-light btn-lg btn-block" data-toggle="modal"
+                                data-target="#WD">View
+                            </button>
+                        </p>
+                    </div>
+
+
+                    <!-- UI/UX-Card -->
+                    <div class="card-3 col-lg-4 col-md-6">
+                        <img src="images/ui_ux.png" alt="Denim Jeans" style="width:100%">
+                        <h1>UI/UX</h1>
+                        <h2><b>30% OFF YOUR PURCHASE</b></h2>
+                        <p>Learn UI/UX</p>
+                        <p>Use Promo Code: <span class="promo">UIX032</span></p>
+                        <p><button type="button" class="btn btn-light btn-lg btn-block" data-toggle="modal"
+                                data-target="#UIX">View
+                            </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Events -->
+
+
+
+
+        <section id="events">
+
+            <h2 class="section-heading">Upcoming Events</h2>
+            <div class="row">
+
+                <div class="event-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Open Source</h1>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="event-text">12-Nov-2020</h2>
+                            <h3>Learn how to contribute</h3>
+                            <h4>Learn Git/Github</h4>
+                            <h2>Get Swags/Certificates</h3>
+
+                                <button class="btn btn-block btn-dark" type="button">Regiter
+                                    Now</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Roadmap to Graphics Designer</h1>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="event-text">19-Nov-2020</h2>
+                            <h3>Learn how to Design</h3>
+                            <h4>Learn Photoshop</h4>
+                            <h2>Get Swags/Certificates</h3>
+
+                                <button class="btn btn-block btn-dark" type="button">Regiter
+                                    Now</button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="event-column col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h1>Interview Prepation</h1>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="event-text">01-Dec-2020</h2>
+                            <h3>Crash Course</h3>
+                            <h4>Data Stucture and Algoritam</h4>
+                            <h2>Get Training Certificates</h3>
+                                <button class="btn btn-block btn-dark" type="button">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="colored-section" id="blogs">
+
+
+
+            <div id="blogCarousel" class="carousel slide" data-ride="carousel" data-interval="1800" data-pause="hover">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#blogCarousel" data-slide-to="1"></li>
+                    <li data-target="#blogCarousel" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active container-fluid">
+                        <h2 class="blog-text">From Village – My tryst with internships.</h2>
+                        <img class="blog-image" src="images/girl1.png" alt="Los Angeles">
+                        <em>Rial Zen,USA</em>
+                    </div>
+                    <div class="carousel-item container-fluid">
+                        <h2 class="blog-text">Internship with Bhaichung Bhutia – Scoring my career goals.</h2>
+                        <img class="blog-image" src="images/girl2.png" alt="Chicago">
+                        <em>Zen Burg,USA</em>
+                    </div>
+                    <div class="carousel-item container-fluid">
+                        <h2 class="blog-text">My internship at Zigzag – Exploring the world of human resources
+                        </h2>
+                        <img class="blog-image" src="images/men1.png" alt="New York">
+                        <em>Pebbles,USA</em>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#blogCarousel" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#blogCarousel" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!-- Profile -->
+        <section id="profile">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <form class="form-signin">
+                            <h1 class="h3 mb-3 font-weight-normal">Please Sign in</h1>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address"
+                                required autofocus>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password"
+                                required>
+
+                            <div class="checkbox mb-3">
+                                <label>
+                                    <input type="checkbox" value="remember-me"> Remember me
+                                </label>
+                            </div>
+                            <button class="btn btn-lg btn-outline-light btn-block" type="submit">Sign in</button>
+                            <button class="btn btn-lg btn-dark btn-block" type="submit">Create a Account</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Or Sign in with</h3>
+                        <button type="button" class="btn hover btn-facebook btn-outline-light  btn-lg download-button">
+                            <a class="btn btn-block btn-social ">
+                                <span class="fa fa-facebook"></span> Sign in with Facebook
+                            </a>
+                        </button>
+                        <button type="button" class="btn hover btn-twitter btn-outline-light  btn-lg download-button">
+                            <a class="btn btn-block btn-social ">
+                                <span class="fa fa-twitter"></span> Sign in with Twitter
+                            </a>
+                        </button>
+                        <button type="button" class="btn hover btn-google btn-outline-light  btn-lg download-button">
+                            <a class="btn btn-block btn-social ">
+                                <span class="fa fa-google"></span> Sign in with Google
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="colored-section">
+            <div class="container-fluid">
+                <footer class="content-section row">
+
+
+                    <div class="col-12 col-md-4" style="text-align: center">
+                        <h1 style="font-family: Arial">Currently We Hire</h1>
+                        <h4>Web Developer</h4>
+                        <h4>HR Manager</h4>
+                        <h4>Graphics Designer</h4>
+                        <h4>Content Writter</h4>
+
+                    </div>
+
+                    <div class="col-12 col-md-4" style="text-align: center">
+                        <h3></h3>
+                        <img class="brand" src="images/tathastu_logo.png" />
+
+                        <div class="text-muted" style="font-size: 0.8rem">
+
+                            © Copyright Something 2020<br />
+                            Privacy Policy | Terms & Conditions
+
+                            <h5>Design By Rishav raj</h5>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-4" style="text-align: center">
+                        <button type="button" class="btn hover btn-facebook   btn-lg download-button">
+                            <a class="btn btn-block btn-social ">
+                                <span class="fa fa-facebook"></span> Follow us on Facebook
+                            </a>
+                        </button>
+                        <button type="button" class="btn hover btn-twitter   btn-lg download-button">
+                            <a class="btn btn-block btn-social ">
+                                <span class="fa fa-twitter"></span> Follow us on Twitter
+                            </a>
+                        </button>
+                        <button type="button" class="btn hover btn-google   btn-lg download-button">
+                            <a class="btn btn-block btn-social ">
+                                <span class="fa fa-google"></span> Follow us on Google
+                            </a>
+                        </button>
+                    </div>
+
+                </footer>
+            </div>
+        </section>
+
+        <script>
+            $(".num").counterUp({
+                delay: 10,
+                time: 1000
+            })
+        </script>
+
+    </body>
+
+    </html>
