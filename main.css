@@ -227,7 +227,7 @@ p {
 }
 
 .phone-icon {
-  width: 15px;
+  width: 16px;
 }
 
 .text-muted {
@@ -320,7 +320,7 @@ iframe {
 }
 
 .card--outline {
-  border: 3px solid var(--base-color);
+  border: 2px solid var(--base-color);
   position: relative;
 }
 
