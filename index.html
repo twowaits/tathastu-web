@@ -13,31 +13,34 @@
   </head>
 
   <body>
-    <header class="container-fluid">
-        <p style="text-align: center">30% + 10% additional off site-wide till Oct 15th <a class="btn btn--white" href="#">Enroll now</a></p>
-    </header>
-    <nav>
-        <div class="col-12 col-md-6">
-            <a href="#">
-                <img class="brand ml-5" src="./images/tathastu_logo.png" />
-            </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><a href="#"><img class="brand ml-5" src="./img/bg.jpg" width="30" height="30"/>Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Courses<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Upcoming events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-outline-success my-2 my-sm-0 px-3" type="submit">Sign up</button>&nbsp;
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign in</button>
+          </form>
         </div>
-        <div class="nav-container col-12 col-md-6">
-            <span class="nav-element">
-                <a href="#" class="nav-link">Courses</a>
-            </span>
-            <span class="nav-element">
-                <a href="#" class="nav-link">Upcoming Events</a>
-            </span>
-            <span class="nav-element">
-                <a href="#" class="nav-link">Blogs</a>
-            </span>
-            <span class="nav-element">
-                <a href="#" class="nav-link">Sign Up</a> |
-                <a href="#" class="nav-link">Sign In</a>
-            </span>
-        </div>
-    </nav>
+      </nav>
+
+      <marquee class="container-fluid">
+        <p class="py-2">30% + 10% additional off site-wide till Oct 15th <a class="btn btn--white" href="#">Enroll now</a></p>
+    </marquee>
 
     <div class="container">
         <div class="row mt-5">
@@ -81,7 +84,7 @@
                     </div>
                 </div>
 
-                <div class="col-3.5 card card--outline mr-4">
+                <div class="col-3.5 card card--outline mr-4 py-4 px-4">
                     <h6 class="font-italic">New batch</h6>
                     <h6 class="text-right">15th Oct Onwards</h6>
                     <h3 class="font-weight-bold pb-2">Machine Learning</h3>
@@ -99,7 +102,7 @@
                     </div>
                 </div>
 
-                <div class="col-3.5 card card--outline">
+                <div class="col-3.5 card card--outline py-4 px-4">
                     <h6 class="font-italic">New batch</h6>
                     <h6 class="text-right">15th Oct Onwards</h6>
                     <h3 class="font-weight-bold pb-2">MERN Stack Development</h3>
